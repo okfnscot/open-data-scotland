@@ -8,7 +8,7 @@ LGBC historical council areas and wards,http://www.lgbc-scotland.gov.uk/maps/dat
 Scottish Neighourhood Statistics,http://www.sns.gov.uk/Downloads/DownloadHome.aspx,national,,"CSV, XML",
 Scottish Neighourhood Statistics,http://data.opendatascotland.org,national,,SPARQL endpoint,
 Scottish Government Data Lab space,http://labs.data.scotland.gov.uk,national,,,Experimental service
-Scotland's Census Data,http://www.scotlandscensus.gov.uk/ods-web/data-warehouse.html,,CSV,
+Scotland's Census Data,http://www.scotlandscensus.gov.uk/ods-web/data-warehouse.html,national,,CSV,
 TellMeScotland,http://www.tellmescotland.gov.uk,national,,,
 MSP Allowances,http://mspallowances.scottish.parliament.uk,national,,Form-based download,
 SEPA Linked Data,http://data.sepa.org.uk,national,environment,,
