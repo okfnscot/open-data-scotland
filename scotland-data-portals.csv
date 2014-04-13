@@ -3,22 +3,20 @@ Glasgow,http://data.glasgow.gov.uk,city,,CSV,
 Edinburgh,https://github.com/edinburghcouncil/datasets,city,,CSV,
 Aberdeen Council,http://www.aberdeencity.gov.uk/open_data,city,,CSV,
 Aberdeenshire Council,http://www.aberdeenshire.gov.uk/opendata/,regional,,"RSS, KML",
-South Ayrshire,http://www.south-ayrshire.gov.uk/opendata/,regioinal,,"CSV, RSS, XML",
-LGBC historical council areas and wards,http://www.lgbc-scotland.gov.uk/maps/datafiles/index_1995_on.asp,national,,ESRI shapefiles,Only licensed under One Scotland Mapping Agreement
+South Ayrshire,http://www.south-ayrshire.gov.uk/opendata/,regional,,"CSV, RSS, XML",
+LGBC historical council areas and wards,http://www.lgbc-scotland.gov.uk/maps/datafiles/index_1995_on.asp,national,,ESRI Shapefiles,Only licensed under One Scotland Mapping Agreement
 Scottish Neighourhood Statistics,http://www.sns.gov.uk/Downloads/DownloadHome.aspx,national,,"CSV, XML",
 Scottish Neighourhood Statistics,http://data.opendatascotland.org,national,,SPARQL endpoint,
 Scottish Government Data Lab space,http://labs.data.scotland.gov.uk,national,,XLS,Experimental service that allows download of Scottish Government spreadsheets. Licencing not specified.
 Scotland's Census Data,http://www.scotlandscensus.gov.uk/ods-web/data-warehouse.html,national,,CSV,
 Scottish SDI Discovery Metadata Service, http://scotgovsdi.edina.ac.uk,national,,XML,Service provided by Scottish Spatial Data Infrastructure
-TellMeScotland,http://opendata.tellmescotland.gov.uk,national,,,TellMe D2R Server -- appears to be currently out of operation
-MSP Allowances,http://mspallowances.scottish.parliament.uk,national,,Form-based download,
+TellMeScotland,http://opendata.tellmescotland.gov.uk,national,,"RDF,SPARQL",TellMe D2R Server -- appears to be currently out of operation
 SEPA Linked Data,http://data.sepa.org.uk,national,environment,,
-Scottish Natural Heritage: Natural Spaces,https://gateway.snh.gov.uk/natural-spaces/index.jsp,national,environment,"Shapefiles, GML, KML","Natural Spaces provides an online data download facility giving access to a wide range of datasets including protected areas, habitats and species, landscape, open space and access."
+Scottish Natural Heritage: Natural Spaces,https://gateway.snh.gov.uk/natural-spaces/index.jsp,national,environment,"ESRI Shapefiles, GML, KML","Natural Spaces provides an online data download facility giving access to a wide range of datasets including protected areas, habitats and species, landscape, open space and access."
 Air Quality,http://www.scottishairquality.co.uk/data.php,national,environment,,Data only obtainable via an automated email service
 Traffic Scotland,http://www.trafficscotland.org/rss/,national,transport,RSS,
 CultureHack Scotland 2011,http://www.welcometosync.com/hacks/2011/about/data,national,GLAM,,
 CultureHack Scotland 2013,http://chs2013.herokuapp.com/docs,national,GLAM,,
 Edinburgh Festivals API,http://api.festivalslab.com,national,GLAM,,
-University of Edinburgh Datashare,http://datashare.is.ed.ac.uk,national,research,,
-Placemakr,http://placemakr.org.uk/,,,,FOI data
+University of Edinburgh Datashare,http://datashare.is.ed.ac.uk,,research,,
 
