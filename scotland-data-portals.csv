@@ -13,7 +13,7 @@ Scottish SDI Discovery Metadata Service, http://scotgovsdi.edina.ac.uk,national,
 TellMeScotland,http://opendata.tellmescotland.gov.uk,national,,,TellMe D2R Server -- appears to be currently out of operation
 MSP Allowances,http://mspallowances.scottish.parliament.uk,national,,Form-based download,
 SEPA Linked Data,http://data.sepa.org.uk,national,environment,,
-https://gateway.snh.gov.uk/natural-spaces/index.jsp,national,environment,"Shapefiles, GML, KML","Natural Spaces provides an online data download facility giving access to a wide range of datasets including protected areas, habitats and species, landscape, open space and access."
+Scottish Natural Heritage: Natural Spaces,https://gateway.snh.gov.uk/natural-spaces/index.jsp,national,environment,"Shapefiles, GML, KML","Natural Spaces provides an online data download facility giving access to a wide range of datasets including protected areas, habitats and species, landscape, open space and access."
 Air Quality,http://www.scottishairquality.co.uk/data.php,national,environment,,Data only obtainable via an automated email service
 Traffic Scotland,http://www.trafficscotland.org/rss/,national,transport,RSS,
 CultureHack Scotland 2011,http://www.welcometosync.com/hacks/2011/about/data,national,GLAM,,
