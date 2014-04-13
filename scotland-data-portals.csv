@@ -9,6 +9,7 @@ Scottish Neighourhood Statistics,http://www.sns.gov.uk/Downloads/DownloadHome.as
 Scottish Neighourhood Statistics,http://data.opendatascotland.org,national,,SPARQL endpoint,
 Scottish Government Data Lab space,http://labs.data.scotland.gov.uk,national,,,Experimental service
 Scotland's Census Data,http://www.scotlandscensus.gov.uk/ods-web/data-warehouse.html,national,,CSV,
+Scottish SDI Discovery Metadata Service, http://scotgovsdi.edina.ac.uk,national,,XML,
 TellMeScotland,http://www.tellmescotland.gov.uk,national,,,
 MSP Allowances,http://mspallowances.scottish.parliament.uk,national,,Form-based download,
 SEPA Linked Data,http://data.sepa.org.uk,national,environment,,
