@@ -1,12 +1,12 @@
-Name,URL,Level,Sector,Access,Description
+Name,URL,Level,Sector,Resources,Description
 Open Glasgow Data Portal,http://data.glasgow.gov.uk,city,,CSV, "Data collected as part of the City of Glasgow Future Cities Demonstrator."
 City of Edinburgh Council Data,https://github.com/edinburghcouncil/datasets,city,,CSV, "Data collected for EdinburghApps. The most recent versions are on Github."
 Aberdeen City Council Open Data,http://www.aberdeencity.gov.uk/open_data,city,,CSV, "Data covering Council and Government, Education and Learning, Leisure and Culture, Planning and the Environment, Transport and Streets."
-Aberdeenshire Council,http://www.aberdeenshire.gov.uk/opendata/,regional,,"RSS, KML",
-South Ayrshire,http://www.south-ayrshire.gov.uk/opendata/,regional,,"CSV, RSS, XML",
-LGBC historical council areas and wards,http://www.lgbc-scotland.gov.uk/maps/datafiles/index_1995_on.asp,national,,ESRI Shapefiles,Only licensed under One Scotland Mapping Agreement
+Aberdeenshire Council Open Data,http://www.aberdeenshire.gov.uk/opendata/,regional,,"RSS, KML",
+South Ayrshire Open Data,http://www.south-ayrshire.gov.uk/opendata/,regional,,"CSV, RSS, XML",
+LGBC Council Areas and Wards,http://www.lgbc-scotland.gov.uk/maps/datafiles/index_1995_on.asp,national,,ESRI Shapefiles,"Historic data. Only licensed under One Scotland Mapping Agreement."
 Scottish Neighourhood Statistics,http://www.sns.gov.uk/Downloads/DownloadHome.aspx,national,,"CSV, XML",
-Scottish Neighourhood Statistics,http://data.opendatascotland.org,national,,SPARQL endpoint,
+Scottish Neighourhood Statistics Linked Data,http://data.opendatascotland.org,national,,SPARQL endpoint,
 Scottish Government Data Lab space,http://labs.data.scotland.gov.uk,national,,XLS,Experimental service that allows download of Scottish Government spreadsheets. Licencing not specified.
 Scotland's Census Data,http://www.scotlandscensus.gov.uk/ods-web/data-warehouse.html,national,,CSV,
 Scottish SDI Discovery Metadata Service, http://scotgovsdi.edina.ac.uk,national,,XML,Service provided by Scottish Spatial Data Infrastructure
