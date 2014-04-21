@@ -18,15 +18,23 @@ body {
 #container {
 }
 
+.dataset {
+    font-weight: normal;
+    font-size: 12px;
+}
+
 #title {
+    font-weight: bold;
     height: 50px;
-    width: 200px;
+    width: 30%;
     float: left;
+    padding-left: 15px;
 }
 
 #description {
+    padding-left: 15px;
     background-color: #EEEEEE;
     height: 100px;
-    width: 500px;
+    width: 50%;
     float: left;
 }
