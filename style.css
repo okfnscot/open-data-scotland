@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    font-family: 'OpenSans', sans-serif;  
+    font-size: 16px;
+}
+
+#header {
+    height: 100px;
+    text-align:center;
+    font-size: 22px;
+}
+
+#entry {
+    clear: both;
+    padding-top: 20px
+}
+
+#container {
+}
+
+#title {
+    height: 50px;
+    width: 200px;
+    float: left;
+}
+
+#description {
+    background-color: #EEEEEE;
+    height: 100px;
+    width: 500px;
+    float: left;
+}
