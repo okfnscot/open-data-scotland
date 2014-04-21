@@ -21,7 +21,8 @@ BODY = """
     <div id="title">
         <p>
         <a href="$url">$name</a>
-        </p>
+        </p>        
+        $datasets
     </div>
      <div id="description">
      <p>
@@ -37,6 +38,19 @@ FOOT = """
 <html>
 """
 
+def datalist(datastr):
+    if datastr == '':
+        return datastr
+    else:
+        items = datastr.split(',') 
+        list_items = '<ul class="dataset">\n'
+        for i in items:
+            i = i.strip()
+            list_items = list_items + ("<li>\n        %s\n        </li>\n" % i)
+        list_items = list_items +  '\n</ul>\n'
+        
+        return list_items
+
 def create_body(fn):
     with open(fn) as csvfile:
         reader = csv.reader(csvfile)
@@ -47,16 +61,19 @@ def create_body(fn):
         
         for row in reader:
             try:
-                (name, URL, level, sector, access, description) = row
+                (name, URL, level, sector, resources, description) = row
                 description = description.replace('"','')
                 description.strip()
+                datasets = datalist(resources)
                 content.append(tmpl.substitute(url=URL,
                                                name=name, 
+                                               datasets=datasets,
                                                description=description))
             except ValueError:
                 pass
     body = ''.join(content)
     return body
+
 
 
 def main():    
