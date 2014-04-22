@@ -1,8 +1,13 @@
 import csv
+import datetime
 from string import Template
+
 
 CSV_IN = "../scotland-data-portals.csv"
 HTML_OUT = "/Users/ewan/git/open-data-scotland-pages/index.html"
+
+today = datetime.datetime.today()
+today = today.strftime("%d %B %Y")
 
 HEAD = """
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
@@ -34,16 +39,19 @@ BODY = """
 
 FOOT = """
   </div>
+  <div id="footer">
+  Last updated: %s. Source data at <a href="https://github.com/okfnscot/open-data-scotland">https://github.com/okfnscot/open-data-scotland</a>
+  </div>
   </body>
 <html>
-"""
+""" % today
 
 def datalist(datastr):
     if datastr == '':
         return datastr
     else:
         items = datastr.split(',') 
-        list_items = '<ul class="dataset">\n'
+        list_items = '<ul id="dataset">\n'
         for i in items:
             i = i.strip()
             list_items = list_items + ("<li>\n        %s\n        </li>\n" % i)
@@ -52,6 +60,7 @@ def datalist(datastr):
         return list_items
 
 def create_body(fn):
+    
     with open(fn) as csvfile:
         reader = csv.reader(csvfile)
         next(reader)
