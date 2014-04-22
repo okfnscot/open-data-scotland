@@ -16,9 +16,7 @@ SEPA Linked Data,http://data.sepa.org.uk,national,environment,"RDF-XML, JSON, CS
 Basin Districts, Catchments, and Bathing Waters."
 Scottish Natural Heritage: Natural Spaces,https://gateway.snh.gov.uk/natural-spaces/index.jsp,national,environment,"ESRI Shapefiles, GML, KML","Natural Spaces provides an online data download facility giving access to a wide range of datasets including protected areas, habitats and species, landscape, open space and access."
 Air Quality,http://www.scottishairquality.co.uk/data.php,national,environment,,"Data relating to Air Quality in Scotland from the present day back to 1986; concentration data and statistics from the air quality monitoring sites operated by Defra, the Scottish Government and Local Authorities. Data only obtainable via an automated email service."
-Traffic Scotland,http://www.trafficscotland.org/rss/,national,transport,RSS,"RSS feeds covering current incidents on the road network
-e.g. accidents; roadworks currently being undertaken on the road
-network; and planned roadworks."
+Traffic Scotland,http://www.trafficscotland.org/rss/,national,transport,RSS,"RSS feeds covering current incidents on the road network e.g. accidents; roadworks currently being undertaken on the road network; and planned roadworks."
 CultureHack Scotland 2011,http://www.welcometosync.com/hacks/2011/about/data,national,GLAM,,"18 datasets assembled for the 2011 Culture Hack Scotland."
 CultureHack Scotland 2013,http://chs2013.herokuapp.com/docs,national,GLAM,"CSV,JSON","20 datasets assembled for the 2012 Culture Hack Scotland."
 Edinburgh Festivals API,http://api.festivalslab.com,national,GLAM,,"Listings data for 12 Edinburgh Festivals, 2012 to present. Requires registration for API Key."
