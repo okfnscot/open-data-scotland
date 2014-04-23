@@ -11,6 +11,7 @@
 # Script to convert  "Scotland's open data portals" CSV file into HTML
 #
 
+import argparse
 import csv
 import datetime
 from string import Template
@@ -120,12 +121,18 @@ def create_body(fn):
 
 
 
-def main():    
-    body = create_body(CSV_IN) 
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('infile')
+    parser.add_argument('outfile')
+    
+    args = parser.parse_args()
+      
+    body = create_body(args.infile) 
     html = HEAD + body + FOOT
-    with open(HTML_OUT, "w") as outfile:
+    with open(args.outfile, "w") as outfile:
         outfile.write(html)
-        print("Writing to %s" % HTML_OUT)   
+        print("Writing to %s" % args.outfile)   
     
     
     
