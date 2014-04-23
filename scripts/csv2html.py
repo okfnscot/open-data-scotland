@@ -1,10 +1,23 @@
+#!/usr/bin/env python
+# Encoding: utf-8
+# -----------------------------------------------------------------------------
+# Open Knowledge Scotland
+# ----------------------------------------------------------------------------- 
+# Author: Ewan Klein <ewan@raw-text.io>
+# -----------------------------------------------------------------------------
+# For license information, see LICENSE.txt
+# -----------------------------------------------------------------------------
+# 
+# Script to convert  "Scotland's open data portals" CSV file into HTML
+#
+
 import csv
 import datetime
 from string import Template
 
 
 CSV_IN = "../scotland-data-portals.csv"
-HTML_OUT = "/Users/ewan/git/open-data-scotland-pages/index.html"
+HTML_OUT = "../../open-data-scotland-pages/index.html"
 
 today = datetime.datetime.today()
 today = today.strftime("%d %B %Y")
@@ -14,11 +27,33 @@ HEAD = """
 <html>
   <head>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <span id="forkongithub"><a href="https://github.com/okfnscot/open-data-scotland">Fork me on GitHub</a></span>
   </head>
   <body>
+
   <div id="container">
      <div id="header">
-     <h1>Scotland Open Data Portals</h1>
+     <h1>Scotland's Open Data Portals</h1>
+     </div>
+     <div id="intro">
+     <p>
+     This page provides a  list of websites in Scotland
+     that are partially or wholly focussed on making open data
+     available. The list only includes sites that provide access to a <b>collection</b> of
+     datasets, rather than just a single dataset.
+
+    A further criterion for inclusion is that access to data is made available in at least
+    one of the following modes:
+    
+    <ul>
+     <li>bulk download in a machine readable format (e.g., CSV, RSS, XML);</li>
+     <li>via a documented API; or</li>
+     <li>as a SPARQL endpoint.</li>
+    </ul>
+     </p>
+     
+     <p>
+     This list is preliminary and additions are very welcome. Send suggestions by email to okfnscot [AT] gmail.com, or fork the CSV data file and send a pull request.
      </div>
 """
 BODY = """
@@ -40,7 +75,7 @@ BODY = """
 FOOT = """
   </div>
   <div id="footer">
-  Last updated: %s. Source data at <a href="https://github.com/okfnscot/open-data-scotland">https://github.com/okfnscot/open-data-scotland</a>
+  Page generated automatically on %s. Source data at <a href="https://github.com/okfnscot/open-data-scotland">https://github.com/okfnscot/open-data-scotland</a>
   </div>
   </body>
 <html>
