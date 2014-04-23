@@ -1,0 +1,6 @@
+*.py[cod]
+
+# Wingide
+*.wpr
+*.wpu
+
