@@ -4,6 +4,8 @@ City of Edinburgh Council Data,https://github.com/edinburghcouncil/datasets,city
 Aberdeen City Council Open Data,http://www.aberdeencity.gov.uk/open_data,city,OGP,CSV,"Data covering Council and Government, Education and Learning, Leisure and Culture, Planning and the Environment, Transport and Streets."
 Aberdeenshire Council Open Data,http://www.aberdeenshire.gov.uk/opendata/,regional,OGP,"RSS, KML","Aberdeenshire Council publishes various Open Data feeds for the use of the public and other organisations
 Unless stated otherwise Open Data feeds are released under the Open Government Licence."
+Midlothian Council Open Data,http://www.midlothian.gov.uk/info/695/about_us/1309/open_data,regional,OGP,CSV,"Datasets covering leisure classes, free school meals, Midlothian gazetteers,
+Midlothian Business Broadband Survey, and statistics on customer usage of online forms."
 South Ayrshire Open Data,http://www.south-ayrshire.gov.uk/opendata/,regional,OGP,"CSV, RSS, XML","Data created by South Ayrshire Council for licence under an Open Government Licence for public sector information."
 Local Government Boundary Commission for Scotland: Council Areas and Wards,http://www.lgbc-scotland.gov.uk/maps/datafiles/index_1995_on.asp,national,OGP,SHAPE,"Data files showing past unitary council areas and electoral wards. Licensed under One Scotland Mapping Agreement."
 Scottish Neighourhood Statistics,http://www.sns.gov.uk/Downloads/DownloadHome.aspx,national,OGP,"CSV, XML","This site provides access to a wide range of information and statistics on: health, education, poverty, unemployment, housing, population, crime and social/community issues in Scotland. The data is available at a range of different geographic levels."
