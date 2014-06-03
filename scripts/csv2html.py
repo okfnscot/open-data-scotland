@@ -8,7 +8,7 @@
 # For license information, see LICENSE.txt
 # -----------------------------------------------------------------------------
 # 
-# Script to convert  "Scotland's open data portals" CSV file into HTML
+# Script to convert  "Scotland's open data catalogues" CSV file into HTML
 #
 
 import argparse
@@ -35,7 +35,7 @@ HEAD = """
 
   <div id="container">
      <div id="header">
-     <h1>Scotland's Open Data Portals</h1>
+     <h1>Scotland's Open Data Catalogues</h1>
      </div>
      <div id="intro">
      <p>
