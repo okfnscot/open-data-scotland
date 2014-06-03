@@ -27,6 +27,7 @@ HEAD = """
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
   <head>
+    <title>Scotland's Open Data Portals</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <span id="forkongithub"><a href="https://github.com/okfnscot/open-data-scotland">Fork me on GitHub</a></span>
   </head>
