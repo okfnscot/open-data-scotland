@@ -1,7 +1,7 @@
 HTMLDIR := ../open-data-scotland-pages
 HTML-OUT := index.html
 
-CSV-IN := scotland-data-portals.csv
+CSV-IN := scotland-data-catalogues.csv
 BUILDER := scripts/csv2html.py
 
 ci: html data
