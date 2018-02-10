@@ -13,6 +13,8 @@ one of the following modes:
 * via a documented API; or
 * as a SPARQL endpoint.
 
+The CSV data file is published in a more readable format at http://okfnscot.github.io/open-data-scotland/
+
 A longer list of web sites in Scotland that information available can
 be found at
 [Scotland's Data](https://sites.google.com/site/scotlandsdata/dataandvocabularies).
