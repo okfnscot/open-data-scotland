@@ -1,4 +1,4 @@
-"Name","URL","Level","Sector","Resources","Description"
+"Name","URL","Geographical Scope","Sector","Data Formats","Description"
 "Aberdeen City Council Open Data","http://opendata.aberdeencity.gov.uk","city","OGD","CSV, XLSX, JSON, GeoJSON","Temporary Open Data repository for Aberdeen.
 We'll use it to make some data sets available until we set up something more robust and as we develop and publish our council's Open Data strategy."
 "Aberdeenshire Council Open Data","http://www.aberdeenshire.gov.uk/opendata/","regional","OGD","RSS, KML","Aberdeenshire Council publishes various Open Data feeds for the use of the public and other organisations
